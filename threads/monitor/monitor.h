@@ -18,8 +18,6 @@ typedef struct {
     pthread_cond_t cond_not_empty;
 } Monitor;
 
-
-
 // Inicializa o monitor
 void monitor_init(Monitor *q);
 
